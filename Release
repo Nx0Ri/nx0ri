@@ -1,0 +1,18 @@
+Origin: OriXsky Repo 
+Label: OriXsky Repo
+Suite: stable
+Version: 1.0
+Codename: EMT
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: I fucking hate new iOS versions
+MD5Sum:
+ 75e232478a4988a803904ad2c091cb28 1277 Packages
+ 4b551e32b5e224f22cfb26949ee120bb 754 Packages.bz2
+ a914dede50e16101913b34a5248bc74e 665 Packages.gz
+ 0065219b9ed707beac966579cd29be13 661 Packages.zst
+SHA256:
+ 154600edeb3f5461c51799dc5e49ba97f64d50a4b1565a36fce65149382fc0d9 1277 Packages
+ 3e5311f5fc7fb755a2018c33930a2f4bbff3a6caed78e7e59a2536ed47f7830f 754 Packages.bz2
+ 1468a470d4d4ecf74f109b653e20f8a781f79c8ce583852ccb123e2ce33d5ee9 665 Packages.gz
+ 7bb20f5cc1f6836c66d53ef34a4f881b19824e4598ad0095f66a8317e24e00a5 661 Packages.zst
