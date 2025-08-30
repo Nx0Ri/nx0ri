@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OriXsky Repo</title>
+    <meta charset="utf-8" />
+	<script>
+      const raw = window.location.search.slice(1).toLowerCase();
+      if (raw === "sileo") {
+        window.location.href = "sileo://source/https://nx0ri.github.io/nx0ri/";
+      } if (raw === "zebra") {
+        window.location.href = "zbra://sources/add/https://nx0ri.github.io/nx0ri/";
+	  } if (raw === "saily") {
+        window.location.href = "apt-repo://https://nx0ri.github.io/nx0ri/";
+      } if (raw === "cydia") {
+        window.location.href = "cydia://url/https://cydia.saurik.com/api/share#?source=https://nx0ri.github.io/nx0ri/";
+      } else {
+        const clean = raw.replaceAll("/", ":").replace(/[^0-9.:]/g, "");
+      }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="repo-header">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <img src="CydiaIcon.png" alt="Repository Icon" />
+          <h1>@shark_ori | @toyota_karton</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title mb-3">OriXsky Repo</h5>
+          <p class="card-text mb-4">
+            A modern repository for jailbreak iOS themes that are remade by <strong>Ori</strong> and <strong>Pablofsky</strong>.
+          </p>
+          <div class="d-flex flex-wrap gap-2">
+            <a class="btn btn-primary" href="sileo://source/https://nx0ri.github.io/nx0ri/"
+              >Sileo</a
+            >
+            <a
+              class="btn btn-primary"
+              href="zbra://sources/add/https://nx0ri.github.io/nx0ri/"
+              >Zebra</a
+            >
+            <a class="btn btn-primary" href="apt-repo://https://nx0ri.github.io/nx0ri/"
+              >Saily</a
+            >
+            <a
+              class="btn btn-primary"
+              href="cydia://url/https://cydia.saurik.com/api/share#?source=https://nx0ri.github.io/nx0ri/"
+              >Cydia</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="section-title">Featured Packages</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Refurbished Glass</div>
+            <div class="card-body">
+				<img src="https://nx0ri.github.io/nx0ri/images/SignedRefurbishedGlass.png"
+				alt="Refurbished Glass Theme Banner"
+				style="max-width: 100%; height: auto; display: block; margin: 0 auto 20px" />
+              <p class="card-text">
+                
+				A beautiful Snowboard theme with a glassy look inspired by iOS26 shown at WWDC 2025 as new iOS Redesign. (iOS 26 is so laggy, on god).
+              </p>
+			  <a class="btn btn-primary" href="https://nx0ri.github.io/nx0ri/debs/com.shori.refurbishedglass.deb">Download</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Solstice 2.0</div>
+            <div class="card-body">
+				<img src="https://nx0ri.github.io/nx0ri/images/Solstice2.0.png"
+				alt="Solstice 2.0 Theme Banner"
+				style="max-width: 100%; height: auto; display: block; margin: 0 auto 20px" />
+              <p class="card-text">
+                A revamped version of the classic Solstice theme, now with even more icons. Solstice is a nice dark iOS18-looking icon theme for Snowboard.
+              </p>
+			  <a class="btn btn-primary" href="https://nx0ri.github.io/nx0ri/debs/com.shori.solstice2.deb">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{296, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+        "url": "https://nx0ri.github.io/nx0ri/images/RefurbishedGlass.png?raw=true",
+        "title": " ",
+        "package": "com.shori.refurbishedglass",
+        "hideShadow": true
+    },
+	{
+        "url": "https://nx0ri.github.io/nx0ri/images/Solstice2.0.png?raw=true",
+        "title": " ",
+        "package": "com.shori.solstice2",
+        "hideShadow": true
+    }
+  ]
+}

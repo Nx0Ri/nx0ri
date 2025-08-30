@@ -1,0 +1,118 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "https://nx0ri.github.io/nx0ri/images/Solstice2.0.png?raw=true",
+	"tintColor": "#ff0000",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "## Solstice 2.0 \nA revamped version of the classic Solstice theme, now with even more icons. Solstice is a nice dark iOS18-looking icon theme for Snowboard."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"title": "Theme Information",
+					"class": "DepictionHeaderView"
+				},
+				{
+					"title": "Version",
+					"text": "2.0.1",
+					"class": "DepictionTableTextView"
+				},
+								{
+					"title": "iOS Version",
+					"text": "Rootless 14.0+",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Released",
+					"text": "30/8/2025",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Developer",
+					"text": "Ori & Pablofsky",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Ori's Github",
+					"action": "https://github.com/Nx0Ri",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"title": "Pablofsky Telegram Chat",
+					"action": "https://t.me/pablofskychat",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"title": "Pablofsky Telegram Channel",
+					"action": "https://t.me/pablofskyyy",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"spacing": 20,
+					"class": "DepictionSpacerView"
+				}
+			],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "Changelog",
+			"views": [
+				{
+					"title": "2.0.1",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "Apps added: Sber (New icon)",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -4px;\">Released 31/8/2025</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"title": "2.0",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "Apps added? Tweak release",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -4px;\">Released 30/8/2025</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"title": "1.0",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "Release",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -4px;\">Released 7/7/2025</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				}
+			],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}

@@ -1,0 +1,118 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "https://nx0ri.github.io/nx0ri/images/RefurbishedGlass.png?raw=true",
+	"tintColor": "#ff0000",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "## Refurbished Glass \nA beautiful Snowboard theme with a glassy look inspired by iOS26 shown at WWDC 2025 as new iOS Redesign. (iOS 26 is so laggy, on god)."
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"title": "Theme Information",
+					"class": "DepictionHeaderView"
+				},
+				{
+					"title": "Version",
+					"text": "1.2",
+					"class": "DepictionTableTextView"
+				},
+								{
+					"title": "iOS Version",
+					"text": "Rootless 14.0+",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Released",
+					"text": "30/8/2025",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Developer",
+					"text": "Ori & Pablofsky",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Ori's Github",
+					"action": "https://github.com/Nx0Ri",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"title": "Pablofsky Telegram Chat",
+					"action": "https://t.me/pablofskychat",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"title": "Pablofsky Telegram Channel",
+					"action": "https://t.me/pablofskyyy",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"spacing": 20,
+					"class": "DepictionSpacerView"
+				}
+			],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "Changelog",
+			"views": [
+				{
+					"title": "1.2",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "Apps added... Actually a lot, check telegram channel for details",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -4px;\">Released 31/8/2025</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"title": "1.1",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "Apps added... None",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -4px;\">Released 30/8/2025</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"title": "1.0",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "Release",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -4px;\">Released 7/7/2025</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				}
+			],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}

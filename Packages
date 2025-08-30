@@ -1,0 +1,32 @@
+Package: com.shori.refurbishedglass
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: Ori & Pablofsky
+Depends: com.spark.snowboard
+Filename: debs/com.shori.refurbishedglass.deb
+Size: 5664830
+MD5sum: fecfeb3de758174d0887c03a5bb90daf
+SHA1: df8b3025d365a926a11b993fba069fd7183404fe
+SHA256: bfdf6377100f7c4a7e7b24b9f484f674bcef67be15267ae180abb715dfcbf2f6
+Section: Themes
+Description: A beautiful Snowboard theme with a glassy look inspired by iOS26 shown at WWDC 2025 as new iOS Redesign. (iOS 26 is so laggy, on god)
+Author: Ori & Pablofsky
+Name: Refurbished Glass
+Sileodepiction: https://nx0ri.github.io/nx0ri/depictions/RefurbishedGlass.json
+
+Package: com.shori.solstice2
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: Ori & Pablofsky
+Depends: com.spark.snowboard
+Filename: debs/com.shori.solstice2.deb
+Size: 58125744
+MD5sum: 9daaffcd813678b2f1e0000ca1096f8c
+SHA1: 7cf11ad820ccc1e535de4f8f4beefb7c0e2d59ba
+SHA256: bee99fb088bc1e4d317af40efdf7161ae5138419b73a00fd717f51008a56fa78
+Section: Themes
+Description: A revamped version of the classic Solstice theme, now with even more icons. Solstice is a nice dark iOS18-looking icon theme for Snowboard.
+Author: Ori & Pablofsky
+Name: Solstice 2.0
+Sileodepiction: https://nx0ri.github.io/nx0ri/depictions/Solstice2.0.json
+
