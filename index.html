@@ -3,6 +3,20 @@
   <head>
     <title>OriXsky Repo</title>
     <meta charset="utf-8" />
+	<script>
+      const raw = window.location.search.slice(1).toLowerCase();
+      if (raw === "sileo") {
+        window.location.href = "sileo://source/https://nx0ri.github.io/nx0ri/";
+      } if (raw === "zebra") {
+        window.location.href = "zbra://sources/add/https://nx0ri.github.io/nx0ri/";
+	  } if (raw === "saily") {
+        window.location.href = "apt-repo://https://nx0ri.github.io/nx0ri/";
+      } if (raw === "cydia") {
+        window.location.href = "cydia://url/https://cydia.saurik.com/api/share#?source=https://nx0ri.github.io/nx0ri/";
+      } else {
+        const clean = raw.replaceAll("/", ":").replace(/[^0-9.:]/g, "");
+      }
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
