@@ -7,12 +7,12 @@ Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: I fucking hate new iOS versions
 MD5Sum:
- d84aa6995910595d5bd3490bb053dc96 1279 Packages
- 7f3097757cf9fdc4daf9bafcc408e51d 755 Packages.bz2
- ef5a88bd23fde63b9323e9bb84dbd91d 667 Packages.gz
- aecec101816e2abe7c6589b7791ad0c3 664 Packages.zst
+ 3c74678a3e12df0c2bbe22b51b5cccfb 1279 Packages
+ 86b306b69620b5ed89a95c5b8721d26f 751 Packages.bz2
+ 2c3b720233c0e9bd83da845041f73a01 668 Packages.gz
+ 219fa38dc223cbbe1f770ed49fcab101 664 Packages.zst
 SHA256:
- 877dbd697118c61a3b31017ad3213b87920c1a92478f016f2282a2a6897b78c7 1279 Packages
- 94a299d3948e4562f2896acaf3adfd66ac2fc292bb20c135fe401307785e9ec2 755 Packages.bz2
- decc6b49ea177908596ffa5fc901cb36c81ac0c3c58976a1d344406928f9cd53 667 Packages.gz
- 3b0be1ae3cab9f0e30526af9cebd0ae6ba348a39df4667e05c589bef4f36f396 664 Packages.zst
+ 7fcd5b66c495601a840aed79457a53ee613e7cd759202970fd725b5fee623129 1279 Packages
+ 802122164a0de990452a4c5af0c55445e1bdf33b0a59ce96c8ccf40dc6587e36 751 Packages.bz2
+ e69e481b83b021801ebdff0633c3c6b6f8e266296ed3d7106b95f89a4679579c 668 Packages.gz
+ 737ddb9be144d6417e79bdda1f20c59ac59184f94e160b564b9d1860f3152d60 664 Packages.zst

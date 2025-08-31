@@ -1,13 +1,13 @@
 Package: com.shori.refurbishedglass
-Version: 1.2
+Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: Ori & Pablofsky
 Depends: com.spark.snowboard
 Filename: debs/com.shori.refurbishedglass.deb
-Size: 5664830
-MD5sum: fecfeb3de758174d0887c03a5bb90daf
-SHA1: df8b3025d365a926a11b993fba069fd7183404fe
-SHA256: bfdf6377100f7c4a7e7b24b9f484f674bcef67be15267ae180abb715dfcbf2f6
+Size: 6982810
+MD5sum: f9439661998760cfc7fee20dd0bcc29d
+SHA1: 86fcd3f3a8f6cc5470a314dc71535909f755efbe
+SHA256: e857c331c945bb6d811adcabf8b8206c2f71c49490e7eba011ddaaad50d3c280
 Section: Themes
 Description: A beautiful Snowboard theme with a glassy look inspired by iOS26 shown at WWDC 2025 as new iOS Redesign. (iOS 26 is so laggy, on god)
 Author: Ori & Pablofsky

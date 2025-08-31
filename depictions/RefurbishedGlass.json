@@ -19,7 +19,7 @@
 				},
 				{
 					"title": "Version",
-					"text": "1.2",
+					"text": "1.3",
 					"class": "DepictionTableTextView"
 				},
 								{
@@ -62,6 +62,22 @@
 		{
 			"tabname": "Changelog",
 			"views": [
+				{
+					"title": "1.3",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "Apps added... Actually a very lot, check telegram channel for details",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -4px;\">Released 31/8/2025</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
 				{
 					"title": "1.2",
 					"useBoldText": true,
